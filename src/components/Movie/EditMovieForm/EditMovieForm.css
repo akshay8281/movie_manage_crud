@@ -1,0 +1,56 @@
+body {
+    background-color: #78909C;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.container_edit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_edit .main {
+    width: 100%;
+    max-width: 500px;
+    background-color: #E8EAF6;
+    padding: 25px;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.edit_form_header {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: darkgreen;
+    background-color: lightgray;
+    padding: 15px 0;
+    border-radius: 1rem;
+}
+
+.edit_movie_name {
+    color: navy;
+}
+
+.form-label {
+    margin: 15px 0;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.edit_input {
+    border: 1px solid grey;
+}
+
+.txt_center {
+    text-align: center;
+}
+
+.btn {
+    color: white;
+
+}

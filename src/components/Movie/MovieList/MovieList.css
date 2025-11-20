@@ -1,0 +1,21 @@
+.container_movie_list {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.movielist_main {
+    text-align: center;
+    background-color: #90A4AE;
+}
+
+.add_movie_btn{
+    background-color: darkgreen;
+    color: white;
+    border-radius: 1rem;
+}
+.add_movie_btn:hover{
+    background-color: navy;
+}

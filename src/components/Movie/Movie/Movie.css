@@ -1,0 +1,48 @@
+.card_movie {
+    width: 18rem;
+    border: 2px solid darkblue;
+    padding: 15px;
+    border-radius: 1rem;
+    margin: 15px;
+    background-color: #EEEEEE;
+
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1),
+        0 6px 10px rgba(0, 0, 0, 0.1),
+        0 8px 16px rgba(0, 0, 0, 0.1),
+        0 12px 24px rgba(0, 0, 0, 0.1),
+        0 16px 32px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card_movie:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2),
+        0 12px 24px rgba(0, 0, 0, 0.2),
+        0 16px 32px rgba(0, 0, 0, 0.2),
+        0 24px 48px rgba(0, 0, 0, 0.2);
+}
+
+.movie_img {
+    height: 35vh;
+    border-radius: 1rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-title {
+    color: darkgreen;
+}
+
+.card-text {
+    color: navy;
+}
+
+.margin_left {
+    margin-left: 1rem;
+}
+
+.btn_font {
+    font-size: 18px;
+    border-radius: 10px;
+}
+
