@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/movie_manage_crud/static/css/main.4c5f2ecf.css",
+    "main.js": "/movie_manage_crud/static/js/main.e8b08cb6.js",
+    "index.html": "/movie_manage_crud/index.html",
+    "main.4c5f2ecf.css.map": "/movie_manage_crud/static/css/main.4c5f2ecf.css.map",
+    "main.e8b08cb6.js.map": "/movie_manage_crud/static/js/main.e8b08cb6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c5f2ecf.css",
+    "static/js/main.e8b08cb6.js"
+  ]
+}
