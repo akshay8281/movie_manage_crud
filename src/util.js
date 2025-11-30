@@ -9,6 +9,9 @@ const callAPI = ({ method, requestBody, callBackFunction, movieId }) => {
 
   const options = {
     method: method,
+     headers: {
+      "Content-Type": "application/json"
+    }
   };
 
   if (method === "POST" || method === "PUT") {
