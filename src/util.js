@@ -1,5 +1,5 @@
 // let backEndServer = "http://localhost:8000/movies/";
-let backEndServer = " https://movie-backend-zfxc.onrender.com/movies";
+let backEndServer = "https://movie-backend-zfxc.onrender.com/movies/";
 
 const callAPI = ({ method, requestBody, callBackFunction, movieId }) => {
   let url = backEndServer;
