@@ -99,13 +99,13 @@ export default function AddMovieForm(props) {
         <div className="txt_center">
           <button
             type="submit"
-            className="btn btn-danger m-2 py-2 px-4 fw-bold rounded-3 fs-5"
+            className="btn btn-danger m-2 py-2 px-4 fw-bold rounded-3 fs-5 btn-hover"
             onClick={addDetailsToServer}
           >
             Add
           </button>
           <button
-            className="btn btn-primary m-2 py-2 px-4 fw-bold rounded-3 fs-5"
+            className="btn btn-primary m-2 py-2 px-4 fw-bold rounded-3 fs-5 btn-hover"
             onClick={() => props.setCurrentState({ mode: "LIST" })}
           >
             Back
